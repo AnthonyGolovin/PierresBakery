@@ -9,6 +9,8 @@ namespace Bakery {
     {
         public static void Main()
         {
+            
+            Console.ForegroundColor = ConsoleColor.Green;
             Bakery();
         }
         public static void Bakery()
@@ -35,7 +37,9 @@ namespace Bakery {
                 Console.WriteLine("\nYour total for today will be $"  + totalTotal + "\n");
                 } catch (Exception error) //Exception is a data type for error handling and error is the name used if you wanna print it or something (Note to self)
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("\nINVALID FORMAT, PLEASE USE NUMBERS AND CREATE YOU ORDER IN THE EXAMPLE FORMAT: EX.5,5\n");
+                    Console.ResetColor();
                     Thread.Sleep(3000);
                     Bakery();
 
