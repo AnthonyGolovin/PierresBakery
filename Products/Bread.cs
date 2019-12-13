@@ -9,7 +9,7 @@ namespace Product.Bread
         public int BreadCost { get; set; }
         public int BreadTotal { get; set; }
 
-        public Bread(int breadQuantity, int breadCost)
+        public Bread(int breadQuantity)
         {
             BreadQuantity = breadQuantity;
             BreadCost = 5;

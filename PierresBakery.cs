@@ -12,10 +12,20 @@ namespace Bakery {
             Console.WriteLine("Bread: $5 per piece.");
             Console.WriteLine("Pastry: $2 per pastry.");
             Console.WriteLine("Enter the amount of Bread and Pastries you would like in the following format (Bread Quanity. Pastry Quantity) EX.(5,9).");
-            int userInput = int.Parse(Console.ReadLine());
-            int[] cart = userInput.Split(",");
+                string userInput = Console.ReadLine();
+                string[] cart = userInput.Split(",");
+                int amountOfBread = int.Parse(cart[0]);
+                int amountOfPastry = int.Parse(cart[1]);
 
-            Console.WriteLine("");
+                Bread bread = new Bread(amountOfBread);
+                    Console.WriteLine("$" + bread.BreadTotal + " is the total for the Bread");
+
+                Pastry pastry = new Pastry (amountOfPastry);
+                     Console.WriteLine("$" + pastry.PastryTotal + " is the total for the Pastry");
+
+                int totalTotal = bread.BreadTotal + pastry.PastryTotal;
+
+                Console.WriteLine("Your total for today will be $"  + totalTotal);
         }
     }
 }

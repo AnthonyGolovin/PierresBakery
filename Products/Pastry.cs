@@ -10,7 +10,7 @@ namespace Product.Pastry
         public int PastryTotal { get; set; }
         public int PastryDiscount { get; set; }
 
-        public Pastry(int pastryQuantity, int pastryCost)
+        public Pastry(int pastryQuantity) //Dont add pastry cost in arguements its just gonna be over written by the constructor price
         {
             PastryQuantity = pastryQuantity;
             PastryCost = 2;
