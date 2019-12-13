@@ -9,16 +9,16 @@ namespace Product.Donut //Need to brain storm a unique discount
         public int DonutCost { get; set; }
         public int DonutTotal { get; set; }
 
-        public Donut(int donutQuantity)
+        public Donut(int donutQuantity, Bread bread)
         {
             DonutQuantity = donutQuantity;
             DonutCost = 4; //Premium gold flake donuts!
-            DonutTotal = DonutCalculation();
+            DonutTotal = DonutCalculation(bread);
         }
 
-        public int DonutCalculation()
+        public int DonutCalculation(Bread bread)
         {
-            
+            int breadQuantity = bread.BreadQuantity;
             return DonutTotal;
         }
     }
