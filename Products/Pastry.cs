@@ -19,11 +19,8 @@ namespace Product.Pastry
         }
 
         public int PastryCalculation()
-        {
-            int remainder = PastryQuantity % 3;
-            int Promotion = PastryQuantity / 3;
-            int PastryTotal = (PastryCost * remainder) + (Promotion * PastryDiscount);
-            return PastryTotal;
+        {     
+            return (PastryQuantity % 3) * 5 + (PastryQuantity - (PastryQuantity % 3)) * 2;
         }
     }
 
