@@ -9,16 +9,18 @@ namespace Product.Bread
         public int BreadCost { get; set; }
         public int BreadTotal { get; set; }
 
-        public Bread(int breadQuantity, int breadCost, int breadTotal)
+        public Bread(int breadQuantity, int breadCost)
         {
             BreadQuantity = breadQuantity;
             BreadCost = 5;
-            BreadTotal =
+            BreadTotal = BreadCalculation();
         }
 
         public int BreadCalculation()
         {
-            int 
+            int breadOriginal = BreadQuantity /3;
+            int BreadTotal = (BreadQuantity - breadOriginal) * BreadCost;
+            return BreadTotal;
         }
     }
 

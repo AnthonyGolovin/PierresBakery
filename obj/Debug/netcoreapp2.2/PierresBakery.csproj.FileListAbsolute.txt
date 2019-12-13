@@ -1,0 +1,11 @@
+C:\Users\AGOLO\desktop\PierresBakery\obj\Debug\netcoreapp2.2\PierresBakery.csprojAssemblyReference.cache
+C:\Users\AGOLO\desktop\PierresBakery\obj\Debug\netcoreapp2.2\PierresBakery.csproj.CoreCompileInputs.cache
+C:\Users\AGOLO\desktop\PierresBakery\obj\Debug\netcoreapp2.2\PierresBakery.AssemblyInfoInputs.cache
+C:\Users\AGOLO\desktop\PierresBakery\obj\Debug\netcoreapp2.2\PierresBakery.AssemblyInfo.cs
+C:\Users\AGOLO\desktop\PierresBakery\bin\Debug\netcoreapp2.2\PierresBakery.deps.json
+C:\Users\AGOLO\desktop\PierresBakery\bin\Debug\netcoreapp2.2\PierresBakery.runtimeconfig.json
+C:\Users\AGOLO\desktop\PierresBakery\bin\Debug\netcoreapp2.2\PierresBakery.runtimeconfig.dev.json
+C:\Users\AGOLO\desktop\PierresBakery\bin\Debug\netcoreapp2.2\PierresBakery.dll
+C:\Users\AGOLO\desktop\PierresBakery\bin\Debug\netcoreapp2.2\PierresBakery.pdb
+C:\Users\AGOLO\desktop\PierresBakery\obj\Debug\netcoreapp2.2\PierresBakery.dll
+C:\Users\AGOLO\desktop\PierresBakery\obj\Debug\netcoreapp2.2\PierresBakery.pdb

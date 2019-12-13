@@ -3,22 +3,27 @@ using System.Collections.Generic;
 
 namespace Product.Pastry
 {
-    class Bread
+    class Pastry
     {
         public int PastryQuantity { get; set; }
         public int PastryCost { get; set; }
         public int PastryTotal { get; set; }
+        public int PastryDiscount { get; set; }
 
-        public Bread(int pastryQuantity, int pastryCost, int pastryTotal)
+        public Pastry(int pastryQuantity, int pastryCost)
         {
-            PastryQuantity = breadQuantity;
-            PastryCost = 5;
-            PastryTotal =
+            PastryQuantity = pastryQuantity;
+            PastryCost = 2;
+            PastryTotal = PastryCalculation();
+            PastryDiscount = 5;
         }
 
         public int PastryCalculation()
         {
-            int 
+            int remainder = PastryQuantity % 3;
+            int Promotion = PastryQuantity / 3;
+            int PastryTotal = (PastryCost * remainder) + (Promotion * PastryDiscount);
+            return PastryTotal;
         }
     }
 
