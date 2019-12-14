@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
+using Product;
 
-namespace Product.Donut //Need to brain storm a unique discount 
+namespace Product //Need to brain storm a unique discount 
 {
     class Donut
     {
@@ -19,7 +20,13 @@ namespace Product.Donut //Need to brain storm a unique discount
         public int DonutCalculation(Bread bread)
         {
             int breadQuantity = bread.BreadQuantity;//return
-            return DonutTotal;
+            int price = 0;
+        if (((breadQuantity / 2) - DonutQuantity) < 0) {
+            price = 0;
+        } else {
+            price =  ((breadQuantity / 2) - DonutQuantity)* DonutCost;
+        } 
+        return price;
         }
     }
 

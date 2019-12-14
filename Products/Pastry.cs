@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Product.Pastry
+namespace Product
 {
     class Pastry
     {

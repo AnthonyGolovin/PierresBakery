@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AGOLO\\Desktop\\PierresBakery\\PierresBakery.csproj": {}
+    "C:\\Users\\AGOLO\\desktop\\PierresBakery\\PierresBakery.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AGOLO\\Desktop\\PierresBakery\\PierresBakery.csproj": {
+    "C:\\Users\\AGOLO\\desktop\\PierresBakery\\PierresBakery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AGOLO\\Desktop\\PierresBakery\\PierresBakery.csproj",
+        "projectUniqueName": "C:\\Users\\AGOLO\\desktop\\PierresBakery\\PierresBakery.csproj",
         "projectName": "PierresBakery",
-        "projectPath": "C:\\Users\\AGOLO\\Desktop\\PierresBakery\\PierresBakery.csproj",
+        "projectPath": "C:\\Users\\AGOLO\\desktop\\PierresBakery\\PierresBakery.csproj",
         "packagesPath": "C:\\Users\\AGOLO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AGOLO\\Desktop\\PierresBakery\\obj\\",
+        "outputPath": "C:\\Users\\AGOLO\\desktop\\PierresBakery\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
