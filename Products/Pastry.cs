@@ -20,7 +20,10 @@ namespace Product
 
         public int PastryCalculation()
         {     
-            return (PastryQuantity % 3) * 5 + (PastryQuantity - (PastryQuantity % 3)) * 2;
+            int PastryDiscounted = PastryQuantity/3;
+            int PastryNotDiscounted = PastryQuantity%3;
+            int Total = (PastryDiscounted * PastryDiscount) + (PastryNotDiscounted * PastryCost);
+            return Total;
         }
     }
 

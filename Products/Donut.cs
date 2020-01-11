@@ -19,14 +19,14 @@ namespace Product //Need to brain storm a unique discount
 
         public int DonutCalculation(Bread bread)
         {
-            int breadQuantity = bread.BreadQuantity;//return
-            int price = 0;
-        if (((breadQuantity / 2) - DonutQuantity) < 0) {
-            price = 0;
-        } else {
-            price =  ((breadQuantity / 2) - DonutQuantity)* DonutCost;
-        } 
-        return price;
+            int FreeDonuts = bread.BreadQuantity/2;
+            if (DonutQuantity > FreeDonuts) {
+                
+            DonutTotal = (DonutQuantity-FreeDonuts)*DonutCost;
+            } else {
+                DonutTotal = 0;
+            }
+        return DonutTotal;
         }
     }
 
